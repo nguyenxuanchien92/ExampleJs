@@ -9,7 +9,10 @@ function average() {
     math = +document.getElementById("inputMath").value;
     physical = +document.getElementById("inputPhysical").value;
     chemistry = +document.getElementById("inputChemistry").value;
-    let average = (math + physical + chemistry)/3;
+
+    let sum = math + physical + chemistry;
+    let average = sum/3;
+    alert("Sum:"+sum);
     alert("Average:"+average);
 }
 

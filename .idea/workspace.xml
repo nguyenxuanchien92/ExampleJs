@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a238cdb-765e-4014-a162-fa9683756a67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ExampleJs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leapYear/leapYear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leapYear/leapYear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleArea/circleArea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleArea/circleArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircuitCircle/circuitCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircuitCircle/circuitCircle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwitchF/switchF.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwitchF/switchF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_1/average.js" beforeDir="false" afterPath="$PROJECT_DIR$/Average/average.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_1/averagePoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/Average/averagePoint.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602059619427</updated>
       <workItem from="1602059620470" duration="6582000" />
-      <workItem from="1602120826561" duration="982000" />
+      <workItem from="1602120826561" duration="3964000" />
     </task>
     <servers />
   </component>
