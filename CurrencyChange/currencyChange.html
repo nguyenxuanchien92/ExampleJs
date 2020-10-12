@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>App currency change</title>
 </head>
+<link rel="stylesheet" href="currencyChange.css" type="text/css">
 <body>
-$END$
+<form action="" method="post" id="formCurrency">
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td>From Currency</td>
+            <td>To Currency</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="tdAmount">
+                <input type="number" id="inputAmount">
+            </td>
+            <td>
+                <select name="selectFromMoney" class="currency" id="selectFromMoney" onchange="selectTypeCurrency(id)">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select name="selectToMoney" class="currency" id="selectToMoney" onchange="selectTypeCurrency(id)">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <button type="submit" id="btConvert">Convert</button>
+            </td>
+        </tr>
+    </table>
+</form>
 </body>
+<script src="currencyChange.js"></script>
 </html>

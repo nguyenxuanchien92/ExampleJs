@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a238cdb-765e-4014-a162-fa9683756a67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CircleArea/circleArea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CircleArea/circleArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CircuitCircle/circuitCircle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CircuitCircle/circuitCircle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwitchF/switchF.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwitchF/switchF.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticeUseWhileLoop/bai1/whileLoop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1/average.js" beforeDir="false" afterPath="$PROJECT_DIR$/Average/average.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1/averagePoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/Average/averagePoint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircuitCircle/circuitCircle.js" beforeDir="false" afterPath="$PROJECT_DIR$/CircuitCircle/circuitCircle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.css" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.html" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyBoardEvent/js/keyboardEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/KeyBoardEvent/js/keyboardEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyBoardEvent/keyboardEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/KeyBoardEvent/keyboardEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticeNestedLoop/nestedLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeNestedLoop/nestedLoop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,14 +43,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PracticeLoopFor" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ExampleJs\PracticeLoopFor" />
+      <recent name="D:\ExampleJs\KeyBoardEvent" />
+      <recent name="D:\ExampleJs\MousEvent" />
       <recent name="D:\ExampleJs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ExampleJs\PracticeUseWhileLoop\bai1" />
+      <recent name="D:\ExampleJs\MousEvent\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,7 +70,13 @@
       <option name="presentableId" value="Default" />
       <updated>1602059619427</updated>
       <workItem from="1602059620470" duration="6582000" />
-      <workItem from="1602120826561" duration="3964000" />
+      <workItem from="1602120826561" duration="10367000" />
+      <workItem from="1602132601657" duration="7756000" />
+      <workItem from="1602205113099" duration="12610000" />
+      <workItem from="1602232015356" duration="7227000" />
+      <workItem from="1602333199961" duration="627000" />
+      <workItem from="1602382635403" duration="4219000" />
+      <workItem from="1602464358136" duration="7354000" />
     </task>
     <servers />
   </component>

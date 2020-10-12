@@ -1,17 +1,17 @@
 
 
 function moveSelection(evt) {
-    switch (evt.code) {
-        case "ArrowLeft":
+    switch (evt.keyCode) {
+        case 37:
             leftArrowPressed();
             break;
-        case "ArrowRight":
+        case 39:
             rightArrowPressed();
             break;
-        case "ArrowUp":
+        case 38:
             upArrowPressed();
             break;
-        case "ArrowDown":
+        case 40:
             downArrowPressed();
             break;
     }
