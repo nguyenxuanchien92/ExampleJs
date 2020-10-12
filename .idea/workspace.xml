@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a238cdb-765e-4014-a162-fa9683756a67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PracticeUseWhileLoop/bai1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeUseWhileLoop/bai1/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticeUseWhileLoop/bai2/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeUseWhileLoop/bai2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticeDoWhileLoop/doWhileLoop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,7 @@
       <workItem from="1602333199961" duration="627000" />
       <workItem from="1602382635403" duration="4219000" />
       <workItem from="1602464358136" duration="8254000" />
+      <workItem from="1602473789606" duration="323000" />
     </task>
     <servers />
   </component>
