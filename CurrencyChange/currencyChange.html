@@ -19,23 +19,44 @@
                 <input type="number" id="inputAmount">
             </td>
             <td>
-                <select name="selectFromMoney" class="currency" id="selectFromMoney" onchange="selectTypeCurrency(id)">
+                <select name="selectFromMoney" class="currency" id="selectFromMoney">
                     <option value="VND">VND</option>
                     <option value="USD">USD</option>
                 </select>
             </td>
             <td>
-                <select name="selectToMoney" class="currency" id="selectToMoney" onchange="selectTypeCurrency(id)">
+                <select name="selectToMoney" class="currency" id="selectToMoney">
                     <option value="VND">VND</option>
                     <option value="USD">USD</option>
                 </select>
             </td>
             <td>
-                <button type="submit" id="btConvert">Convert</button>
+                <button type="button" id="btConvert" onclick="displayResult()">Convert</button>
             </td>
         </tr>
     </table>
 </form>
+<p id="displayResult"></p>
 </body>
-<script src="currencyChange.js"></script>
+<script>
+    function convert(a, b) {
+        let inputAmount = +document.getElementById("inputAmount").value;
+        let result;
+        if (a == "USD" && b == "VND") {
+            result = (inputAmount * 23000) + " VND";
+        } else if (a == "VND" && b == "USD") {
+            result = (inputAmount / 23000) + " USD";
+        } else {
+            result = inputAmount +" "+ a;
+        }
+        return result;
+    }
+
+    function displayResult() {
+        let display = document.getElementById("displayResult");
+        let fromCurrency = document.getElementById("selectFromMoney").value;
+        let toCurrency = document.getElementById("selectToMoney").value;
+        display.innerHTML = convert(fromCurrency,toCurrency);
+    }
+</script>
 </html>

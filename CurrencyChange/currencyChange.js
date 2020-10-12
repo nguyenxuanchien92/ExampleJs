@@ -2,25 +2,25 @@ let inputAmount;
 let fromCurrency;
 let toCurrency;
 let btConvert;
-let currencyType;
-let evMouse;
-
-inputAmount = +document.getElementById("inputAmount");
-fromCurrency = document.getElementById("selectFromMoney");
-toCurrency = document.getElementById("selectToMoney");
+inputAmount = document.getElementById("inputAmount").value;
+fromCurrency = document.getElementById("selectFromMoney").value;
+toCurrency = document.getElementById("selectToMoney").value;
 btConvert = document.getElementById("btConvert");
 
-function selectTypeCurrency(id) {
-    let idSelect = document.getElementById(id);
+let value = Number(inputAmount);
 
-    switch (idSelect){
-        case  fromCurrency:
-            currencyType = fromCurrency.value;
-            break;
-        case toCurrency:
-            currencyType = toCurrency.value;
-            break;
+function convert(a, b) {
+    let result;
+    if (a == "USD" && b == "VND") {
+        result = (value * 23000) + " VND";
+    } else if (a == "VND" && b == "USD") {
+        result = (value / 23000) + " USD";
+    } else {
+        result = value +" "+ a;
     }
-    // return currencyType;
-    alert("id selection:"+idSelect.id);
+    return result;
+}
+
+function displayResult() {
+    return alert(convert(fromCurrency, toCurrency) + " ");
 }

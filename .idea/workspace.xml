@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a238cdb-765e-4014-a162-fa9683756a67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyBoardEvent/js/keyboardEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/KeyBoardEvent/js/keyboardEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyBoardEvent/keyboardEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/KeyBoardEvent/keyboardEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.html" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +40,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PracticeLoopFor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ExampleJs\PracticeUseWhileLoop\bai1" />
+      <recent name="D:\ExampleJs\MousEvent\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ExampleJs\PracticeLoopFor" />
       <recent name="D:\ExampleJs\KeyBoardEvent" />
       <recent name="D:\ExampleJs\MousEvent" />
       <recent name="D:\ExampleJs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ExampleJs\PracticeUseWhileLoop\bai1" />
-      <recent name="D:\ExampleJs\MousEvent\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +71,8 @@
       <workItem from="1602333199961" duration="627000" />
       <workItem from="1602382635403" duration="4219000" />
       <workItem from="1602464358136" duration="8254000" />
-      <workItem from="1602473789606" duration="1510000" />
+      <workItem from="1602473789606" duration="10291000" />
+      <workItem from="1602541581683" duration="1028000" />
     </task>
     <servers />
   </component>
@@ -79,9 +80,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="922" y="168" key="SettingsEditor" timestamp="1602063831498">
+    <state x="922" y="168" key="SettingsEditor" timestamp="1602498838815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602063831498" />
+    <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602498838815" />
   </component>
 </project>
