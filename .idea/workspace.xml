@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a238cdb-765e-4014-a162-fa9683756a67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PracticeUseWhileLoop/bai1/whileLoop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircuitCircle/circuitCircle.js" beforeDir="false" afterPath="$PROJECT_DIR$/CircuitCircle/circuitCircle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.css" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.html" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyChange/currencyChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyChange/currencyChange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyBoardEvent/js/keyboardEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/KeyBoardEvent/js/keyboardEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyBoardEvent/keyboardEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/KeyBoardEvent/keyboardEvent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticeNestedLoop/nestedLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeNestedLoop/nestedLoop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticeUseWhileLoop/bai1/whileLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeUseWhileLoop/bai1/whileLoop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,7 @@
       <workItem from="1602232015356" duration="7227000" />
       <workItem from="1602333199961" duration="627000" />
       <workItem from="1602382635403" duration="4219000" />
-      <workItem from="1602464358136" duration="7354000" />
+      <workItem from="1602464358136" duration="8010000" />
     </task>
     <servers />
   </component>

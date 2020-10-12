@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Use while loop</title>
+</head>
+<body>
+<p id="display"></p>
+<script>
+    let display = document.getElementById("display");
+    let num = +prompt("Enter number:");
+
+    function sum() {
+        let total = 0;
+
+        while (num != -1) {
+            total += num;
+            num = +prompt("Enter number:");
+        }
+        return total;
+    }
+
+    display.innerHTML = sum() + " ";
+</script>
+</body>
+</html>
