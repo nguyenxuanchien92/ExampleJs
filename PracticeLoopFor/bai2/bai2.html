@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="display"></p>
+    <script>
+        let i,n;
+        let display;
+
+        display = document.getElementById("display");
+        n = +prompt("Enter your number:");
+
+        function total() {
+            let total = 0;
+            for(i = 0; i < n; i++){
+                total += i;
+            }
+            return total;
+        }
+
+        display.innerHTML = total()+"";
+    </script>
+</body>
+</html>
