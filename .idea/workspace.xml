@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a238cdb-765e-4014-a162-fa9683756a67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Prime/prime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticeArray/practiceArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticeArray/practiceArray.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prime/prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prime/prime.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,8 +40,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PracticeLoopFor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -53,6 +56,16 @@
       <recent name="D:\ExampleJs\MousEvent" />
       <recent name="D:\ExampleJs" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="practiceArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PracticeArray/practiceArray.js" working-dir="$PROJECT_DIR$/PracticeArray">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.practiceArray.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +86,9 @@
       <workItem from="1602473789606" duration="10291000" />
       <workItem from="1602541581683" duration="1759000" />
       <workItem from="1602549982868" duration="9707000" />
-      <workItem from="1602577478653" duration="5492000" />
+      <workItem from="1602577478653" duration="7145000" />
+      <workItem from="1602640441961" duration="788000" />
+      <workItem from="1602644316200" duration="5066000" />
     </task>
     <servers />
   </component>
@@ -81,10 +96,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="922" y="168" key="SettingsEditor" timestamp="1602498838815">
+    <state x="922" y="168" key="SettingsEditor" timestamp="1602645960402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602498838815" />
+    <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645960402" />
+    <state x="0" y="0" width="1533" height="1027" key="dock-window-1" timestamp="1602646270835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1533" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1602646270835" />
+    <state x="676" y="340" key="jetbrains.nodejs.interpreters-dialog" timestamp="1602646325969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="340" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602646325969" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602543644762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

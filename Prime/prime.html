@@ -5,33 +5,102 @@
     <title>Prime</title>
 </head>
 <body>
-    <button onclick="displayPrime()">Quantity</button>
-<script>
-    function checkPrime(num) {
-        let i = 2;
-        while(i < num){
-            if(num % i === 0){
-                return false;
-            }
-            i++;
-        }
-        return true;
-    }
+<!--    <button onclick="displayPrime()">Quantity</button>-->
+<!--<script>-->
+<!--    function checkPrime(num) {-->
+<!--        let i = 2;-->
 
-    function displayPrime(){
-        let quantity = +prompt("Enter quantity:");
-        let count = 0;
-        let n = 3;
+<!--        if(num < 2){-->
+<!--            return false;-->
+<!--        }-->
 
-        while (count < quantity){
-            let check = checkPrime(n);
-            if(check){
-                document.write(n+',');
-                count++;
+<!--        while(i < num){-->
+<!--            if(num % i === 0){-->
+<!--                return false;-->
+<!--            }-->
+<!--            i++;-->
+<!--        }-->
+<!--        return true;-->
+<!--    }-->
+
+<!--    function displayPrime(){-->
+<!--        let quantity = +prompt("Enter quantity:");-->
+<!--        let count = 0;-->
+<!--        // why n = 3?-->
+<!--        let n = 2;-->
+
+<!--        while (count < quantity){-->
+<!--            let check = checkPrime(n);-->
+<!--            if(check){-->
+<!--                document.write(n+',');-->
+<!--                count++;-->
+<!--            }-->
+<!--            n++;-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+    <script>
+        function checkPrime(num) {
+            let n = num;
+            let i = 2;
+            if(n < 2){
+                return 0;
             }
-            n++;
+            while (i < Math.sqrt(n)){
+                if(n%i===0){
+                    return 0;
+                }
+                i++;
+            }
+            return 1;
         }
-    }
-</script>
+
+
+        function listPrime2() {
+            let quantity = +prompt("So luong");
+            let count = 0;
+            let n = 3;
+
+            while (count < quantity){
+                let check = checkPrime(n);
+                if(check){
+                    document.write(n+',');
+                    count++;
+                }
+                n++;
+            }
+        }
+
+
+        function listPrime() {
+            let quantity = 6;
+            let count = 0;
+            let n = 2;
+
+            while (count < quantity){
+                let i = 2;
+
+                let flag = true;
+                while (i < n){
+                    if(n%i===0) {
+                        flag = false;
+                        break;
+                    }
+                    i++;
+                }
+
+                if(flag){
+                    document.write(n + ",");
+                    count++;
+                }
+                n++;
+
+            }
+
+            console.log(count);
+        }
+
+        listPrime2();
+    </script>
 </body>
 </html>
