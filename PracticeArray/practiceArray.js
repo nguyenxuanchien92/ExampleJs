@@ -3,7 +3,7 @@ let array = Array();
 
 function add_element_to_array() {
     let txt = document.getElementById("txtValue");
-    let num = +txt.value;
+    let num = txt.value;
     array.push(num);
     txt.value = "";
 }
