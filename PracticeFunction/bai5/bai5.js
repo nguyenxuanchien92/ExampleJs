@@ -7,10 +7,8 @@ let collectionArray = new Array(arrayName, arrayStar);
 function checkStr(str) {
     for (let i = 0; i < collectionArray.length; i++) {
         for (let j = 0; j < collectionArray[i].length; j++) {
-            if (str == collectionArray[i][j]) {
-                console.log(collectionArray[++i][j]);
-            }else {
-                console.log("We did not your word");
+            if (str === collectionArray[i][j]) {
+                console.log(`${str}--${collectionArray[++i][j]}`);
                 break;
             }
         }
@@ -19,7 +17,7 @@ function checkStr(str) {
 
 }
 
-checkStr("Regulus Dubhe");
+checkStr("Deneb ");
 
 
 
